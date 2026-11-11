@@ -2,7 +2,7 @@
 
 Servidor [MCP](https://modelcontextprotocol.io) (Model Context Protocol) em Node.js, feito com o **SDK oficial**, que expõe o arquivo de documentos do [DocsIA](https://github.com/ColdAlchemy/docs-ia-laravel) para clientes como o **Claude Desktop** e o **Claude Code**. O cliente pode buscar trechos, ler um documento e consultar prazos, sempre **somente leitura** e **dentro de um único espaço de trabalho**.
 
-> Desenvolvido por mim com o auxílio do Claude Code. Eu defini o escopo, revisei e estudo o código. Este projeto **não usa IA**: ele só entrega dados para um cliente que usa. Os documentos de exemplo do DocsIA são fictícios.
+> Eu defini o escopo, revisei e estudo o código. Este projeto **não usa IA**: ele só entrega dados para um cliente que usa. Os documentos de exemplo do DocsIA são fictícios.
 
 ## Para que serve (em termos simples)
 Hoje, para um assistente de IA (como o Claude) usar os seus documentos, alguém precisa copiar e colar o texto na conversa. O MCP é um **padrão aberto de "tomada"**: este servidor é uma tomada que deixa qualquer assistente compatível **consultar o seu arquivo sozinho**, fazendo perguntas como "quais prazos vencem nos próximos 30 dias?" ou "o que o contrato diz sobre multa?". Ele só **lê** (não consegue alterar nada) e só enxerga **um espaço de trabalho** escolhido por quem configura, para que um assistente não veja dados de outra equipe.

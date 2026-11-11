@@ -1,0 +1,23 @@
+{
+  "name": "arquivo-mcp",
+  "version": "1.0.0",
+  "description": "Servidor MCP que expõe os documentos do DocsIA (buscar trechos, obter documento, listar prazos) como ferramentas somente leitura",
+  "type": "module",
+  "main": "src/servidor.js",
+  "bin": {
+    "arquivo-mcp": "src/servidor.js"
+  },
+  "scripts": {
+    "start": "node src/servidor.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "better-sqlite3": "^13.0.3",
+    "zod": "^4.6.5"
+  }
+}
